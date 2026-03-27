@@ -1,0 +1,21 @@
+{
+  "name": "image-watermark-remover",
+  "version": "1.0.0",
+  "description": "腾讯云 CI ImageRepair 图片去水印工具",
+  "main": "image-watermark-remover.js",
+  "scripts": {
+    "start": "node image-watermark-remover.js",
+    "test": "node image-watermark-remover.js test_input.png test_output.png mask_test.png",
+    "test-auto": "node image-watermark-remover.js test_input.png test_output_auto.png"
+  },
+  "keywords": ["tencent-cloud", "ci", "watermark", "image-processing"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cos-nodejs-sdk-v5": "^2.13.0",
+    "jimp": "^1.6.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

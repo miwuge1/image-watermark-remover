@@ -22,6 +22,12 @@ results/
 *.jpg.output.*
 *.png.output.*
 
-# OS
+# Environment (secrets)
+.env
+.env.local
+
+# Node.js
+node_modules/
+package-lock.json
 .DS_Store
 Thumbs.db
